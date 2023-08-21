@@ -12,7 +12,7 @@
                         </h3>
                         <div class="flex flex-col justify-center items-center">
                             <Icon :icon="'mdi-'+job.name" :width="50"></Icon>
-                            <img src="https://cfx-nui-ox_inventory/web/images/WEAPON_PISTOL.png" alt="">
+                            <!-- <img src="https://cfx-nui-ox_inventory/web/images/WEAPON_PISTOL.png" alt=""> -->
                             <div :class="jobs.description ? '' : 'text-slate-500 pointer-events-none'">
                                 Részletek
                             </div>
