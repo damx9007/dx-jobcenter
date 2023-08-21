@@ -6,6 +6,9 @@ RegisterCommand('jobs', function()
     OpenJobCenter(true)
 end)
 
+
+exports('OpenJobCenter', OpenJobCenter)
+
 OpenJobCenter = function(bool) 
     isVisible = bool
 
@@ -16,6 +19,8 @@ OpenJobCenter = function(bool)
     })
 
 end
+
+
 
 RegisterNetEvent('closeNUI', function() 
     OpenJobCenter(false)
