@@ -1,13 +1,11 @@
 ESX = exports['es_extended']:getSharedObject()
 
 local isVisible = false
-
+--[[ 
 RegisterCommand('jobs', function()
     OpenJobCenter(true)
 end)
-
-
-exports('OpenJobCenter', OpenJobCenter)
+ ]]
 
 OpenJobCenter = function(bool) 
     isVisible = bool
@@ -45,3 +43,5 @@ end)
     data({})
 end)
  ]]
+
+ exports('OpenJobCenter', OpenJobCenter)

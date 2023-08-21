@@ -40,3 +40,4 @@ files {
     'nui/dist/app.js',
     'nui/dist/app.css',
 }
+export 'OpenJobCenter'
