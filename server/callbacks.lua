@@ -18,7 +18,7 @@ AddEventHandler('dx-jobcenter:server:setMeJobEvent', function(data)
         TriggerClientEvent('ox_lib:notify', source, {
             type = 'success',
             title = 'Munkaügyi Központ',
-            description = 'Sikeresen felvetted a munkát' .. job .. '',
+            description = 'Sikeresen felvetted a munkát ##' .. job .. '',
             position = 'top'
         })
         TriggerClientEvent('closeNUI', source)
